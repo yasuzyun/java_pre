@@ -1,8 +1,3 @@
-let i;
-let num = 0;
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 
-for(i = 1; i < 11; i++){
-  num = num + i;
-}
-
-alert('1から10まで足し算した結果は' + num + 'です');
+alert('あなたの選んだ手は' + user_hand + 'です。');
